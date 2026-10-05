@@ -19,6 +19,7 @@ export default function Projects() {
         "A responsive banking website with a professional interface for managing deposits, withdrawals, balances and transaction history.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       image: bankImg,
+      live:"https://sreelaks11.github.io/farmer_bank_website/"
       
     },
 
@@ -35,6 +36,7 @@ export default function Projects() {
         "GSAP",
       ],
       image:Eventimg,
+      live:" https://sreelaks11.github.io/EventEase_web/"
      
     },
 
@@ -45,6 +47,8 @@ export default function Projects() {
         "A responsive food ordering website with an attractive interface for browsing food items and managing orders.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       image:foodimg,
+      live:"https://sreelaks11.github.io/food_order_website/"
+
      
     },
 
@@ -55,6 +59,7 @@ export default function Projects() {
         "A professional hotel booking website designed with responsive layouts and user-friendly booking interfaces.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       image:hotelimg,
+      live:"https://sreelaks11.github.io/hotel_web/"
      
     },
 
@@ -65,6 +70,7 @@ export default function Projects() {
         "A modern furniture website featuring product displays, responsive layouts and a clean shopping experience.",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       image:furnitureimg,
+      live:"https://sreelaks11.github.io/furniture-website/"
      
     },
 
@@ -75,6 +81,7 @@ export default function Projects() {
     "A responsive gym website designed to showcase fitness programs, services, gallery, and membership options with a modern and professional user interface.",
   technologies: ["HTML5", "CSS3", "Tailwind CSS", "AOS"],
   image: gym,
+  live:"https://sreelaks11.github.io/GYMWEBSITE/"
   
 },
   ];
@@ -270,9 +277,9 @@ export default function Projects() {
 
                   </div>
 
-                  {/* ================= LIVE DEMO ================= */}
+                  /* ================= LIVE DEMO ================= */
 
-                  {/* <div
+                  <div
                     className="mt-auto pt-3"
                     style={{
                       borderTop: "1px solid #1e3a5f",
@@ -288,7 +295,7 @@ export default function Projects() {
                       Live Demo :{" "}
                     </span>
 
-                    {project.live !== "#" ? (
+                    {project.live !== "" ? (
 
                       <a
                         href={project.live}
@@ -315,7 +322,7 @@ export default function Projects() {
 
                     )}
 
-                  </div> */}
+                  </div> 
 
                 </Card.Body>
 

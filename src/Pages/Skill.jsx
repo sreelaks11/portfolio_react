@@ -57,7 +57,7 @@ export default function Skills() {
     "Git",
     "GitHub",
     "VS Code",
-    "Firebase",
+    
     "REST API",
     "Responsive Design",
   ];
@@ -144,7 +144,9 @@ export default function Skills() {
                   </div>
 
                   {/* Skill Name */}
-                  <h4 className="fw-bold mb-2">
+                  <h4
+                  style={{color:"#bbc5d5"}}
+                   className="fw-bold mb-2">
                     {skill.name}
                   </h4>
 

@@ -8,6 +8,7 @@ import Education from './Pages/Educationexp'
 import Contact from './Pages/Contact'
 
 import MyNavbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
       <Route path="/contact" element={<Contact />} />
 
     </Routes>
+
+    <Footer/>
 
     </>
   )

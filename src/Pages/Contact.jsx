@@ -208,7 +208,7 @@ export default function Contact() {
                       className="mb-0"
                       style={{ color: "#ffffff" }}
                     >
-                      +91 1111112222
+                      +91 8589069464
                     </p>
 
                   </div>
@@ -269,7 +269,7 @@ export default function Contact() {
                   <div className="d-flex gap-2 flex-wrap">
 
                     <Button
-                      href="#"
+                      href="https://github.com/sreelaks11"
                       variant="outline-info"
                       style={{
                         borderColor: "#38bdf8",
@@ -280,7 +280,7 @@ export default function Contact() {
                     </Button>
 
                     <Button
-                      href="#"
+                      href="https://linkedin.com/in/sreelakshmi-ns-22b2a740a"
                       variant="outline-info"
                       style={{
                         borderColor: "#38bdf8",
